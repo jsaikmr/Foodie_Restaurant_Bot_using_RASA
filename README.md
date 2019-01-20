@@ -23,10 +23,10 @@ $pip install rasa_nlu
 
 ### Install Rasa Core
 
-$git clone https://github.com/RasaHQ/rasa_core.git
-$cd rasa_core
-$pip install -r requirements.txt
-$pip install -e .
+* $git clone https://github.com/RasaHQ/rasa_core.git
+* $cd rasa_core
+* $pip install -r requirements.txt
+* $pip install -e .
 
 ### To find version of rasa_core and rasa_nlu installed
 * $python --version
@@ -36,22 +36,29 @@ $pip install -e .
 ### Steps to train the nlu data & train the core conversational flow using command line
 cd path
 
-**Train the NLU
+**Train the NLU**
 $python .\nlu_model.py
 
-**Train Core
+**Train Core**
 $python .\train_init.py
 
-**Run Dialogue management
-**Step 1: Run the action server
+**Run Dialogue management**
+
+
+**Step 1: Run the action server**
+
 ```
 	python -m rasa_core_sdk.endpoint --actions actions
 ```
-**Step 2: Run the RASA Core
+
+**Step 2: Run the RASA Core**
+
 ```
 	python -m rasa_core.run --nlu models/nlu/default/restaurantnlu --core models/dialogue --endpoints endpoints.yml
 ```
-**Slack Integration
+
+**Slack Integration**
+
 ```
 python -m rasa_core.run -d models/dialogue -u models/nlu/default/restaurantnlu --endpoints endpoints.yml --port 5002 --connector slack --credentials slack_credentials.yml
 ```
@@ -60,11 +67,12 @@ cd path $python .\nlu_model.py
 
 $python .\train_init.py
 
-**verify the bot command line
+**verify the bot command line**
+
 $python .\dialogue_management_model.py
 
 
-### train dialogue flow online and add the strories
+### Train dialogue flow online and add the strories
 
 $python .\train_online.py
 
