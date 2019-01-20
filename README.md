@@ -4,15 +4,15 @@ An Indian startup named 'Foodie' wants to build a conversational bot (chatbot) w
 
 The main purpose of the bot is to help users discover restaurants quickly and efficiently and to provide a good restaurant discovery experience.
 
-Prerequisites:
+### Prerequisites:
 Following are the versions of the packages used in the development environment
 
-Python Version		-  3.6.4
-Rasa_nlu Version 	- 0.12.3
-Rasa_core Version 	- 0.10.1
+* Python Version		-  3.6.4
+* Rasa_nlu Version 	- 0.12.3
+* Rasa_core Version 	- 0.10.1
 
-Note:
-Zomato apis can be generated using https://developers.zomato.com/documentation#/
+**Note:**
+Zomato apis can be generated using [https://developers.zomato.com/documentation#/](https://developers.zomato.com/documentation#/)
 
 Application demo can be viewed in Youtube using https://youtu.be/d4BwwHnYVQY
 
