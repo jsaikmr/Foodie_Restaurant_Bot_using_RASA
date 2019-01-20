@@ -38,11 +38,11 @@ $pip install rasa_nlu
 
 2. Train the NLU
 
-$python .\nlu_model.py
+- $python .\nlu_model.py
 
 3.Train Core
 
-$python .\train_init.py
+- $python .\train_init.py
 
 
 **Run Dialogue management**
@@ -65,14 +65,15 @@ $python .\train_init.py
 ```
 python -m rasa_core.run -d models/dialogue -u models/nlu/default/restaurantnlu --endpoints endpoints.yml --port 5002 --connector slack --credentials slack_credentials.yml
 ```
-Train the nlu data & train the core conversational flow using python code
+
+**To train the nlu data & train the core conversational flow using python code**
 
 1. cd path 
 2. $python .\nlu_model.py
 3. $python .\train_init.py
 
 
-**verify the bot command line**
+**To verify the bot command line**
 
 $python .\dialogue_management_model.py
 
@@ -93,7 +94,6 @@ Using ngrok (https://ngrok.com/download) as a webhook deploy the bot on slack(ht
 $python .\run_app.py  
 
 Bot can be accessed from slack. 
-
  
 
 ## Framework and Libraries used.
