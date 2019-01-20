@@ -1,0 +1,105 @@
+slots:
+  location:
+    type: text
+  cuisine:
+    type: text
+  budget:
+    type: text
+  email:
+    type: text
+  valid_location:
+    type: categorical
+    values:
+    - true
+    - false
+  is_result_found:
+    type: bool
+
+    
+entities:
+  - location
+  - cuisine
+  - budget
+  - email
+  
+  
+intents:
+  - greet
+  - affirm
+  - deny
+  - goodbye
+  - thankyou
+  - restaurant_search
+  - send_email
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_thankyou
+  - utter_ask_cuisine
+  - utter_ask_howcanhelp
+  - utter_ask_location
+  - utter_location_not_valid
+  - utter_ask_budget
+  - utter_ask_email_needed
+  - utter_ask_emailid
+  - utter_email_status
+  - actions.ActionSearchRestaurants
+  - actions.ActionCheckLocation
+  - actions.ActionSendEmail
+  
+templates:
+  utter_greet:
+    - "Hey there! How may i help you"
+    - "Hi, How can i help you!"
+    - "Hey, How is it going. How may i help you today"
+  utter_goodbye:
+    - "Goodbye :("
+    - "Bye-bye"
+  utter_thankyou:
+    - "Thank you."
+    - "Okay. Bon Appetit!"
+    - "Bon Appetit!"
+  utter_default:
+    - "Sorry, we couldn't find the details for you. Please try again with proper values."
+  utter_ask_cuisine: 
+    - text: "What kind of cuisine would you like?"
+      buttons:
+      - title: "Chinese"
+        payload: "Chinese"
+      - title: "Mexican"
+        payload: "Mexican"
+      - title: "Italian"
+        payload: "Italian"
+      - title: "American"
+        payload: "American"
+      - title: "South Indian"
+        payload: "South Indian"
+      - title: "North Indian"
+        payload: "North Indian"
+  utter_ask_budget: 
+    - text: "What's the average budget for two people?"
+      buttons:
+      - title: "Lesser than Rs. 300"
+        payload: "Lesser than Rs. 300"
+      - title: "Rs. 300 to 700"
+        payload: "Rs. 300 to 700"
+      - title: "More than 700"
+        payload: "More than 700"
+  utter_ask_email_needed: 
+    - "Should i send you details of all the restaurants on email?"    
+  utter_ask_howcanhelp:
+    - "How can i help you?"
+  utter_ask_location:
+    - "In what location?"
+  utter_location_not_valid:
+    - "Sorry, we don’t operate in this city. Can you please specify some other location"
+  utter_ask_emailid:
+    - "To what email id should i send it to?"
+  utter_email_status:
+    - "Email sent"
+    
+    
+    
+    

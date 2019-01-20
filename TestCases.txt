@@ -1,0 +1,28 @@
+TESTCASE 1
+	Hello  
+	I am hungry. Please help me to find some food  
+	In Pune	 
+	I'll prefer American  
+	Less than 300  
+	no. Thanks	
+
+TESTCASE 2
+	Hello  
+	Please show me some restaurants in Mumbai  
+	Italian  
+	300-700 range  
+	no. Thankyou  
+
+TESTCASE 3
+	Hi  
+	Please show me some restaurants in bengaluru for above 700  
+	North Indian  
+	yes please. send it to gry@gmail.com  
+
+TESTCASE 4
+	Hi  
+	Please show me some Mexican restaurants in bengaluru for above 700  
+	no. thankyou.  
+
+TESTCASE 5
+	Please send the list of Chinese restaurants in Hyderabad above 700 to gry@gmail.com
