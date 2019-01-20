@@ -1,4 +1,4 @@
-# Foodie_Restaurant_Bot_using_RASA
+# Foodie Restaurant Bot using RASA
 
 An Indian startup named 'Foodie' wants to build a conversational bot (chatbot) which can help users discover restaurants across several Indian cities.
 
