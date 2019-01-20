@@ -34,13 +34,16 @@ $pip install rasa_nlu
 * $python -c "import rasa_core; print(rasa_core.__version__);"
 
 ### Steps to train the nlu data & train the core conversational flow using command line
-cd path
+1. cd path
 
-**Train the NLU**
+2. Train the NLU
+
 $python .\nlu_model.py
 
-**Train Core**
+3.Train Core
+
 $python .\train_init.py
+
 
 **Run Dialogue management**
 
@@ -63,9 +66,11 @@ $python .\train_init.py
 python -m rasa_core.run -d models/dialogue -u models/nlu/default/restaurantnlu --endpoints endpoints.yml --port 5002 --connector slack --credentials slack_credentials.yml
 ```
 Train the nlu data & train the core conversational flow using python code
-cd path $python .\nlu_model.py
 
-$python .\train_init.py
+1. cd path 
+2. $python .\nlu_model.py
+3. $python .\train_init.py
+
 
 **verify the bot command line**
 
