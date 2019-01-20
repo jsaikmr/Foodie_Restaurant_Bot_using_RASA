@@ -12,46 +12,46 @@ Following are the versions of the packages used in the development environment
 * Rasa_core Version 	- 0.10.1
 
 **Note:**
-Zomato apis can be generated using [https://developers.zomato.com/documentation#/](https://developers.zomato.com/documentation#/)
+* Zomato apis can be generated using [https://developers.zomato.com/documentation#/](https://developers.zomato.com/documentation#/)
 
-Application demo can be viewed in Youtube using https://youtu.be/d4BwwHnYVQY
+* Application demo can be viewed in Youtube using [https://youtu.be/d4BwwHnYVQY](https://youtu.be/d4BwwHnYVQY)
 
 
-Installing ---- How to Run:
-What to Install
-Install Rasa NLU
+### Installing Rasa nlu:
+
 $pip install rasa_nlu
 
-Install Rasa Core
-I am installing from Git.
-
+### Install Rasa Core
 
 $git clone https://github.com/RasaHQ/rasa_core.git
 $cd rasa_core
 $pip install -r requirements.txt
 $pip install -e .
-How to find rasa_core and rasa_nlu version
-$python -c "import rasa_nlu; print(rasa_nlu.__version__);"
-$python -c "import rasa_core; print(rasa_core.__version__);"
-Train the nlu data & train the core conversational flow using command line
+
+### To find version of rasa_core and rasa_nlu installed
+* $python --version
+* $python -c "import rasa_nlu; print(rasa_nlu.__version__);"
+* $python -c "import rasa_core; print(rasa_core.__version__);"
+
+### Steps to train the nlu data & train the core conversational flow using command line
 cd path
 
-train the NLU
+**Train the NLU
 $python .\nlu_model.py
 
-train Core
+**Train Core
 $python .\train_init.py
 
-Run Dialogue management
-Step 1: run the action server
+**Run Dialogue management
+**Step 1: Run the action server
 ```
 	python -m rasa_core_sdk.endpoint --actions actions
 ```
-Step 2: run the RASA Core
+**Step 2: Run the RASA Core
 ```
 	python -m rasa_core.run --nlu models/nlu/default/restaurantnlu --core models/dialogue --endpoints endpoints.yml
 ```
-Slack Integration
+**Slack Integration
 ```
 python -m rasa_core.run -d models/dialogue -u models/nlu/default/restaurantnlu --endpoints endpoints.yml --port 5002 --connector slack --credentials slack_credentials.yml
 ```
@@ -60,7 +60,7 @@ cd path $python .\nlu_model.py
 
 $python .\train_init.py
 
-verify the bot command line
+**verify the bot command line
 $python .\dialogue_management_model.py
 
 
@@ -73,7 +73,7 @@ Generated stories can be exported to a path and then added to stories.md. Retrai
 
 ## Deployment to slack
 
-run the bot on local sever and integrate with slack.
+Run the bot on local sever and integrate with slack.
 
 Using ngrok (https://ngrok.com/download) as a webhook deploy the bot on slack(https://slack.com/). Create a bot in slack and integrate the credentials in run_app.py program.
 
@@ -83,18 +83,9 @@ Bot can be accessed from slack.
 
  
 
-## Built With
+## Framework and Libraries used.
 
 * Rasa
 * Keras Framework
 * Tensorflow
 * Slack
-
-
-## Authors
-
-* **Anurag Singh**
-
-## License
-
- ---- NA ----------
