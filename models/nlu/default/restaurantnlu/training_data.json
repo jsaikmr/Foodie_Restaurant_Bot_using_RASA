@@ -1,0 +1,5423 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hey!"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy!"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there!"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hello!"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hola!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi!"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning!"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening!"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon!"
+      },
+      {
+        "intent": "greet",
+        "text": "dear sir"
+      },
+      {
+        "intent": "greet",
+        "text": "dear sir!"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "right, thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "great choice"
+      },
+      {
+        "intent": "affirm",
+        "text": "sounds really good"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes please"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "No. Thank You"
+      },
+      {
+        "intent": "deny",
+        "text": "No. thankyou"
+      },
+      {
+        "intent": "deny",
+        "text": "No. thanks you"
+      },
+      {
+        "intent": "deny",
+        "text": "No, Thank You"
+      },
+      {
+        "intent": "deny",
+        "text": "no, thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "no need"
+      },
+      {
+        "intent": "deny",
+        "text": "not needed"
+      },
+      {
+        "intent": "deny",
+        "text": "its alright"
+      },
+      {
+        "intent": "deny",
+        "text": "that's fine"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "please suggest me some restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "please help find some good restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "need a list of good restaurants near me"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "i'm hungry need a good restaurant"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "please suggest some good restaurants to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "need a good restaurant within my budget"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "i'm looking for a place to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I want to grab lunch"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "I am searching for a dinner spot"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "search for restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "please find restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "find me a restaurant"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "ahmedabad",
+            "entity": "location"
+          }
+        ],
+        "text": "ahmedabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "bangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "bangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "chennai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "hyderabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "kolkata",
+            "entity": "location"
+          }
+        ],
+        "text": "kolkata"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "mumbai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "pune"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "agra",
+            "entity": "location"
+          }
+        ],
+        "text": "agra"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "ajmer",
+            "entity": "location"
+          }
+        ],
+        "text": "ajmer"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "aligarh",
+            "entity": "location"
+          }
+        ],
+        "text": "aligarh"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "allahabad",
+            "entity": "location"
+          }
+        ],
+        "text": "allahabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "amravati",
+            "entity": "location"
+          }
+        ],
+        "text": "amravati"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "amritsar",
+            "entity": "location"
+          }
+        ],
+        "text": "amritsar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "asansol",
+            "entity": "location"
+          }
+        ],
+        "text": "asansol"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "aurangabad",
+            "entity": "location"
+          }
+        ],
+        "text": "aurangabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "bareilly",
+            "entity": "location"
+          }
+        ],
+        "text": "bareilly"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "belgaum",
+            "entity": "location"
+          }
+        ],
+        "text": "belgaum"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "bhavnagar",
+            "entity": "location"
+          }
+        ],
+        "text": "bhavnagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "bhiwandi",
+            "entity": "location"
+          }
+        ],
+        "text": "bhiwandi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "bhopal",
+            "entity": "location"
+          }
+        ],
+        "text": "bhopal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "bhubaneswar",
+            "entity": "location"
+          }
+        ],
+        "text": "bhubaneswar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "bikaner",
+            "entity": "location"
+          }
+        ],
+        "text": "bikaner"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "bokaro steel city",
+            "entity": "location"
+          }
+        ],
+        "text": "bokaro steel city"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "chandigarh",
+            "entity": "location"
+          }
+        ],
+        "text": "chandigarh"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "coimbatore",
+            "entity": "location"
+          }
+        ],
+        "text": "coimbatore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "cuttack",
+            "entity": "location"
+          }
+        ],
+        "text": "cuttack"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "dehradun",
+            "entity": "location"
+          }
+        ],
+        "text": "dehradun"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "dhanbad",
+            "entity": "location"
+          }
+        ],
+        "text": "dhanbad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "durg-bhilai nagar",
+            "entity": "location"
+          }
+        ],
+        "text": "durg-bhilai nagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "durgapur",
+            "entity": "location"
+          }
+        ],
+        "text": "durgapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "erode",
+            "entity": "location"
+          }
+        ],
+        "text": "erode"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "faridabad",
+            "entity": "location"
+          }
+        ],
+        "text": "faridabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "firozabad",
+            "entity": "location"
+          }
+        ],
+        "text": "firozabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "ghaziabad",
+            "entity": "location"
+          }
+        ],
+        "text": "ghaziabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "gorakhpur",
+            "entity": "location"
+          }
+        ],
+        "text": "gorakhpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "gulbarga",
+            "entity": "location"
+          }
+        ],
+        "text": "gulbarga"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "guntur",
+            "entity": "location"
+          }
+        ],
+        "text": "guntur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "gurgaon",
+            "entity": "location"
+          }
+        ],
+        "text": "gurgaon"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "guwahati",
+            "entity": "location"
+          }
+        ],
+        "text": "guwahati"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "gwalior",
+            "entity": "location"
+          }
+        ],
+        "text": "gwalior"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "hubli-dharwad",
+            "entity": "location"
+          }
+        ],
+        "text": "hubli-dharwad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "indore",
+            "entity": "location"
+          }
+        ],
+        "text": "indore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "jabalpur",
+            "entity": "location"
+          }
+        ],
+        "text": "jabalpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "jaipur",
+            "entity": "location"
+          }
+        ],
+        "text": "jaipur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "jalandhar",
+            "entity": "location"
+          }
+        ],
+        "text": "jalandhar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "jammu",
+            "entity": "location"
+          }
+        ],
+        "text": "jammu"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "jamnagar",
+            "entity": "location"
+          }
+        ],
+        "text": "jamnagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "jamshedpur",
+            "entity": "location"
+          }
+        ],
+        "text": "jamshedpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "jhansi",
+            "entity": "location"
+          }
+        ],
+        "text": "jhansi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "jodhpur",
+            "entity": "location"
+          }
+        ],
+        "text": "jodhpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "kannur",
+            "entity": "location"
+          }
+        ],
+        "text": "kannur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "kanpur",
+            "entity": "location"
+          }
+        ],
+        "text": "kanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kakinada",
+            "entity": "location"
+          }
+        ],
+        "text": "kakinada"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "kochi",
+            "entity": "location"
+          }
+        ],
+        "text": "kochi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kottayam",
+            "entity": "location"
+          }
+        ],
+        "text": "kottayam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kolhapur",
+            "entity": "location"
+          }
+        ],
+        "text": "kolhapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "kollam",
+            "entity": "location"
+          }
+        ],
+        "text": "kollam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "kota",
+            "entity": "location"
+          }
+        ],
+        "text": "kota"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "kozhikode",
+            "entity": "location"
+          }
+        ],
+        "text": "kozhikode"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "kurnool",
+            "entity": "location"
+          }
+        ],
+        "text": "kurnool"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "lucknow",
+            "entity": "location"
+          }
+        ],
+        "text": "lucknow"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ludhiana",
+            "entity": "location"
+          }
+        ],
+        "text": "ludhiana"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "madurai",
+            "entity": "location"
+          }
+        ],
+        "text": "madurai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "malappuram",
+            "entity": "location"
+          }
+        ],
+        "text": "malappuram"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mathura",
+            "entity": "location"
+          }
+        ],
+        "text": "mathura"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "goa",
+            "entity": "location"
+          }
+        ],
+        "text": "goa"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "mangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "mangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "meerut",
+            "entity": "location"
+          }
+        ],
+        "text": "meerut"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "moradabad",
+            "entity": "location"
+          }
+        ],
+        "text": "moradabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mysore",
+            "entity": "location"
+          }
+        ],
+        "text": "mysore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "nagpur",
+            "entity": "location"
+          }
+        ],
+        "text": "nagpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "nanded",
+            "entity": "location"
+          }
+        ],
+        "text": "nanded"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "nashik",
+            "entity": "location"
+          }
+        ],
+        "text": "nashik"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "nellore",
+            "entity": "location"
+          }
+        ],
+        "text": "nellore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "noida",
+            "entity": "location"
+          }
+        ],
+        "text": "noida"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "palakkad",
+            "entity": "location"
+          }
+        ],
+        "text": "palakkad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "patna",
+            "entity": "location"
+          }
+        ],
+        "text": "patna"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "pondicherry",
+            "entity": "location"
+          }
+        ],
+        "text": "pondicherry"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "raipur",
+            "entity": "location"
+          }
+        ],
+        "text": "raipur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "rajkot",
+            "entity": "location"
+          }
+        ],
+        "text": "rajkot"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "rajahmundry",
+            "entity": "location"
+          }
+        ],
+        "text": "rajahmundry"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "ranchi",
+            "entity": "location"
+          }
+        ],
+        "text": "ranchi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "rourkela",
+            "entity": "location"
+          }
+        ],
+        "text": "rourkela"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "salem",
+            "entity": "location"
+          }
+        ],
+        "text": "salem"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "sangli",
+            "entity": "location"
+          }
+        ],
+        "text": "sangli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "siliguri",
+            "entity": "location"
+          }
+        ],
+        "text": "siliguri"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "solapur",
+            "entity": "location"
+          }
+        ],
+        "text": "solapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "srinagar",
+            "entity": "location"
+          }
+        ],
+        "text": "srinagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "sultanpur",
+            "entity": "location"
+          }
+        ],
+        "text": "sultanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "surat",
+            "entity": "location"
+          }
+        ],
+        "text": "surat"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "thiruvananthapuram",
+            "entity": "location"
+          }
+        ],
+        "text": "thiruvananthapuram"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "thrissur",
+            "entity": "location"
+          }
+        ],
+        "text": "thrissur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "tiruchirappalli",
+            "entity": "location"
+          }
+        ],
+        "text": "tiruchirappalli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "tirunelveli",
+            "entity": "location"
+          }
+        ],
+        "text": "tirunelveli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "tiruppur",
+            "entity": "location"
+          }
+        ],
+        "text": "tiruppur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "ujjain",
+            "entity": "location"
+          }
+        ],
+        "text": "ujjain"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "vijayapura",
+            "entity": "location"
+          }
+        ],
+        "text": "vijayapura"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vadodara",
+            "entity": "location"
+          }
+        ],
+        "text": "vadodara"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "varanasi",
+            "entity": "location"
+          }
+        ],
+        "text": "varanasi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "vasai-virar city",
+            "entity": "location"
+          }
+        ],
+        "text": "vasai-virar city"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "vijayawada",
+            "entity": "location"
+          }
+        ],
+        "text": "vijayawada"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "visakhapatnam",
+            "entity": "location"
+          }
+        ],
+        "text": "visakhapatnam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "warangal",
+            "entity": "location"
+          }
+        ],
+        "text": "warangal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "ahmedabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Ahmedabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "bangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "Bangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "Chennai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "hyderabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Hyderabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "kolkata",
+            "entity": "location"
+          }
+        ],
+        "text": "Kolkata"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mumbai",
+            "entity": "location"
+          }
+        ],
+        "text": "Mumbai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "Pune"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "agra",
+            "entity": "location"
+          }
+        ],
+        "text": "Agra"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "ajmer",
+            "entity": "location"
+          }
+        ],
+        "text": "Ajmer"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "aligarh",
+            "entity": "location"
+          }
+        ],
+        "text": "Aligarh"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "allahabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Allahabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "amravati",
+            "entity": "location"
+          }
+        ],
+        "text": "Amravati"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "amritsar",
+            "entity": "location"
+          }
+        ],
+        "text": "Amritsar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "asansol",
+            "entity": "location"
+          }
+        ],
+        "text": "Asansol"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "aurangabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Aurangabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "bareilly",
+            "entity": "location"
+          }
+        ],
+        "text": "Bareilly"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "belgaum",
+            "entity": "location"
+          }
+        ],
+        "text": "Belgaum"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "bhavnagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhavnagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "bhiwandi",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhiwandi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "bhopal",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhopal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "bhubaneswar",
+            "entity": "location"
+          }
+        ],
+        "text": "Bhubaneswar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "bikaner",
+            "entity": "location"
+          }
+        ],
+        "text": "Bikaner"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "bokaro steel city",
+            "entity": "location"
+          }
+        ],
+        "text": "Bokaro steel city"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "chandigarh",
+            "entity": "location"
+          }
+        ],
+        "text": "Chandigarh"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "coimbatore",
+            "entity": "location"
+          }
+        ],
+        "text": "Coimbatore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "cuttack",
+            "entity": "location"
+          }
+        ],
+        "text": "Cuttack"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "dehradun",
+            "entity": "location"
+          }
+        ],
+        "text": "Dehradun"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "dhanbad",
+            "entity": "location"
+          }
+        ],
+        "text": "Dhanbad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "durg-bhilai nagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Durg-bhilai nagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "durgapur",
+            "entity": "location"
+          }
+        ],
+        "text": "Durgapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "erode",
+            "entity": "location"
+          }
+        ],
+        "text": "Erode"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "faridabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Faridabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "firozabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Firozabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "ghaziabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Ghaziabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "gorakhpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Gorakhpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "gulbarga",
+            "entity": "location"
+          }
+        ],
+        "text": "Gulbarga"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "guntur",
+            "entity": "location"
+          }
+        ],
+        "text": "Guntur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "gurgaon",
+            "entity": "location"
+          }
+        ],
+        "text": "Gurgaon"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "guwahati",
+            "entity": "location"
+          }
+        ],
+        "text": "Guwahati"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "gwalior",
+            "entity": "location"
+          }
+        ],
+        "text": "Gwalior"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "hubli-dharwad",
+            "entity": "location"
+          }
+        ],
+        "text": "Hubli-dharwad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "indore",
+            "entity": "location"
+          }
+        ],
+        "text": "Indore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "jabalpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jabalpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "jaipur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jaipur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "jalandhar",
+            "entity": "location"
+          }
+        ],
+        "text": "Jalandhar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "jammu",
+            "entity": "location"
+          }
+        ],
+        "text": "Jammu"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "jamnagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Jamnagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "jamshedpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jamshedpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "jhansi",
+            "entity": "location"
+          }
+        ],
+        "text": "Jhansi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "jodhpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Jodhpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "kannur",
+            "entity": "location"
+          }
+        ],
+        "text": "Kannur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "kanpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Kanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kakinada",
+            "entity": "location"
+          }
+        ],
+        "text": "Kakinada"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "kochi",
+            "entity": "location"
+          }
+        ],
+        "text": "Kochi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kottayam",
+            "entity": "location"
+          }
+        ],
+        "text": "Kottayam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kolhapur",
+            "entity": "location"
+          }
+        ],
+        "text": "Kolhapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "kollam",
+            "entity": "location"
+          }
+        ],
+        "text": "Kollam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "kota",
+            "entity": "location"
+          }
+        ],
+        "text": "Kota"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "kozhikode",
+            "entity": "location"
+          }
+        ],
+        "text": "Kozhikode"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "kurnool",
+            "entity": "location"
+          }
+        ],
+        "text": "Kurnool"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "lucknow",
+            "entity": "location"
+          }
+        ],
+        "text": "Lucknow"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ludhiana",
+            "entity": "location"
+          }
+        ],
+        "text": "Ludhiana"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "madurai",
+            "entity": "location"
+          }
+        ],
+        "text": "Madurai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "malappuram",
+            "entity": "location"
+          }
+        ],
+        "text": "Malappuram"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "mathura",
+            "entity": "location"
+          }
+        ],
+        "text": "Mathura"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "goa",
+            "entity": "location"
+          }
+        ],
+        "text": "Goa"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "mangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "Mangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "meerut",
+            "entity": "location"
+          }
+        ],
+        "text": "Meerut"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "moradabad",
+            "entity": "location"
+          }
+        ],
+        "text": "Moradabad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "mysore",
+            "entity": "location"
+          }
+        ],
+        "text": "Mysore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "nagpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Nagpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "nanded",
+            "entity": "location"
+          }
+        ],
+        "text": "Nanded"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "nashik",
+            "entity": "location"
+          }
+        ],
+        "text": "Nashik"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "nellore",
+            "entity": "location"
+          }
+        ],
+        "text": "Nellore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "noida",
+            "entity": "location"
+          }
+        ],
+        "text": "Noida"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "palakkad",
+            "entity": "location"
+          }
+        ],
+        "text": "Palakkad"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "patna",
+            "entity": "location"
+          }
+        ],
+        "text": "Patna"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "pondicherry",
+            "entity": "location"
+          }
+        ],
+        "text": "Pondicherry"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "raipur",
+            "entity": "location"
+          }
+        ],
+        "text": "Raipur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "rajkot",
+            "entity": "location"
+          }
+        ],
+        "text": "Rajkot"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "rajahmundry",
+            "entity": "location"
+          }
+        ],
+        "text": "Rajahmundry"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "ranchi",
+            "entity": "location"
+          }
+        ],
+        "text": "Ranchi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "rourkela",
+            "entity": "location"
+          }
+        ],
+        "text": "Rourkela"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "salem",
+            "entity": "location"
+          }
+        ],
+        "text": "Salem"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "sangli",
+            "entity": "location"
+          }
+        ],
+        "text": "Sangli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "siliguri",
+            "entity": "location"
+          }
+        ],
+        "text": "Siliguri"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "solapur",
+            "entity": "location"
+          }
+        ],
+        "text": "Solapur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "srinagar",
+            "entity": "location"
+          }
+        ],
+        "text": "Srinagar"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "sultanpur",
+            "entity": "location"
+          }
+        ],
+        "text": "Sultanpur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "surat",
+            "entity": "location"
+          }
+        ],
+        "text": "Surat"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "thiruvananthapuram",
+            "entity": "location"
+          }
+        ],
+        "text": "Thiruvananthapuram"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "thrissur",
+            "entity": "location"
+          }
+        ],
+        "text": "Thrissur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "tiruchirappalli",
+            "entity": "location"
+          }
+        ],
+        "text": "Tiruchirappalli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "tirunelveli",
+            "entity": "location"
+          }
+        ],
+        "text": "Tirunelveli"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "tiruppur",
+            "entity": "location"
+          }
+        ],
+        "text": "Tiruppur"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "ujjain",
+            "entity": "location"
+          }
+        ],
+        "text": "Ujjain"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "vijayapura",
+            "entity": "location"
+          }
+        ],
+        "text": "Vijayapura"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vadodara",
+            "entity": "location"
+          }
+        ],
+        "text": "Vadodara"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "varanasi",
+            "entity": "location"
+          }
+        ],
+        "text": "Varanasi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "vasai-virar city",
+            "entity": "location"
+          }
+        ],
+        "text": "Vasai-virar city"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "vijayawada",
+            "entity": "location"
+          }
+        ],
+        "text": "Vijayawada"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "visakhapatnam",
+            "entity": "location"
+          }
+        ],
+        "text": "Visakhapatnam"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "warangal",
+            "entity": "location"
+          }
+        ],
+        "text": "Warangal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a place in the north of town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere in the west"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "jammu",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere near jammu"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "jammu",
+            "entity": "location"
+          }
+        ],
+        "text": "I am looking a restaurant in jammu"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "in London"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ],
+        "text": "Lithuania"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Oh, sorry, in Italy"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "in delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "In Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "In Delhi."
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "I am looking for some restaurants in Delhi."
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "I am looking for some restaurants in Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "I am looking for some restaurants in delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 38,
+            "end": 42,
+            "value": "pune",
+            "entity": "location"
+          }
+        ],
+        "text": "please help me to find restaurants in pune"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me chinese restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "i am looking for an indian spot called olaolaolaolaolaola"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "asian fusion",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I am looking for asian fusion food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "South Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "South Indian"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "North Indian"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Italian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Italian"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "Chinese"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "chinese"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 38,
+            "value": "mexican indian fusion",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I am looking for mexican indian fusion"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "cheap"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "low budget"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "lower budget"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "low-level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "low-range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "low level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "low range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "less budget"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "pocket friendly"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "pocket-friendly"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "affordable"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "starting level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "entry level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "moderate"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "medium"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "average"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "mid-range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "mid-level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "mid range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "mid level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "costly"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "high"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "expensive"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "costliest"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "royal"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "high-level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "high-range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "high level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "high range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "higher level"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "I am looking for cheap restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "please suggest some budget restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "Find pocket-friendly restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "search for lower cost restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "Find some affordable restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "I am looking for moderate restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "show me medium budget restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "search for average restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "search for costly restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "search for costliest restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "Find some expensive restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "Please show some royal restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "Please suggest some high budget restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 40,
+            "end": 43,
+            "value": "500",
+            "entity": "budget"
+          }
+        ],
+        "text": "I am looking for some restaurants below 500"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "need restaurants above 1000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "700",
+            "entity": "budget"
+          }
+        ],
+        "text": "find restaurants below Rs.700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "2000",
+            "entity": "budget"
+          }
+        ],
+        "text": "show restaurants above Rs 2000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 38,
+            "value": "600",
+            "entity": "budget"
+          }
+        ],
+        "text": "suggest me some restaurants for Rs.600 and above"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 34,
+            "end": 37,
+            "value": "500",
+            "entity": "budget"
+          }
+        ],
+        "text": "suggest some good restaurants for 500 and below"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "500",
+            "entity": "budget"
+          }
+        ],
+        "text": "below 500"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "above 800"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "below 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "below 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "above 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "above 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "less than 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "lesser than 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "less than 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "greater than 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "greater than 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "more than 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": ">300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": ">700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "<300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "<700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "> 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "> 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "< 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "699",
+            "entity": "budget"
+          }
+        ],
+        "text": "< 700"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "2000",
+            "entity": "budget"
+          }
+        ],
+        "text": "for 2000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "500-1000 range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "350",
+            "entity": "budget"
+          }
+        ],
+        "text": "200-350 range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "600-800 range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "650",
+            "entity": "budget"
+          }
+        ],
+        "text": "200-650 range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "2500",
+            "entity": "budget"
+          }
+        ],
+        "text": "between 1800 and 2500 range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "1500",
+            "entity": "budget"
+          }
+        ],
+        "text": "range between 1000 and 1500"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "500",
+            "entity": "budget"
+          }
+        ],
+        "text": "range between 300 to 500"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "between 600 to 800 range"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "99",
+            "entity": "budget"
+          }
+        ],
+        "text": "99"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "80",
+            "entity": "budget"
+          }
+        ],
+        "text": "80"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "50",
+            "entity": "budget"
+          }
+        ],
+        "text": "50"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "75",
+            "entity": "budget"
+          }
+        ],
+        "text": "75"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "123",
+            "entity": "budget"
+          }
+        ],
+        "text": "123"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "250",
+            "entity": "budget"
+          }
+        ],
+        "text": "250"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "545",
+            "entity": "budget"
+          }
+        ],
+        "text": "545"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "956",
+            "entity": "budget"
+          }
+        ],
+        "text": "956"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1524",
+            "entity": "budget"
+          }
+        ],
+        "text": "1524"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6857",
+            "entity": "budget"
+          }
+        ],
+        "text": "6857"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1492",
+            "entity": "budget"
+          }
+        ],
+        "text": "1492"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "6000",
+            "entity": "budget"
+          }
+        ],
+        "text": "6000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "show me chines restaurants in the north"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "cuisine"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "centre",
+            "entity": "location"
+          }
+        ],
+        "text": "show me a mexican place in the centre"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "central",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "central indian restaurant"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 44,
+            "end": 51,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "can you please find italian restaurants in chennai"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "american",
+            "entity": "cuisine"
+          },
+          {
+            "start": 37,
+            "end": 42,
+            "value": "bangalore",
+            "entity": "location"
+          }
+        ],
+        "text": "suggest some american restaurants in blore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "pune",
+            "entity": "location"
+          },
+          {
+            "start": 26,
+            "end": 38,
+            "value": "south indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "in pune help me find some south indian restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "north indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "show some north indian restaurants around delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "american",
+            "entity": "cuisine"
+          },
+          {
+            "start": 41,
+            "end": 44,
+            "value": "600",
+            "entity": "budget"
+          }
+        ],
+        "text": "show me some american restaurants for Rs.600"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "north indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "value": "2500",
+            "entity": "budget"
+          }
+        ],
+        "text": "suggest me some north indian restaurants below 2500"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 42,
+            "end": 46,
+            "value": "1200",
+            "entity": "budget"
+          }
+        ],
+        "text": "suggest me some chinese restaurants above 1200 for 4 people"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 31,
+            "value": "south indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 50,
+            "end": 53,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "please find a good south indian restaurant around 800 for 3"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "show italian restaurants for 1000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "show italian restaurants for 1000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 33,
+            "end": 40,
+            "value": "chennai",
+            "entity": "location"
+          },
+          {
+            "start": 45,
+            "end": 48,
+            "value": "600",
+            "entity": "budget"
+          }
+        ],
+        "text": "show me some good restaurants in chennai for 600"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "bangalore",
+            "entity": "location"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "1500",
+            "entity": "budget"
+          }
+        ],
+        "text": "Find good restaurants in bangalore for 1500"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "mysuru",
+            "entity": "location"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "2000",
+            "entity": "budget"
+          }
+        ],
+        "text": "suggest restaurants in mysuru above 2000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "pune",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 44,
+            "value": "900",
+            "entity": "budget"
+          }
+        ],
+        "text": "in pune, show some restaurants for below 900"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "kolkata",
+            "entity": "location"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "in kolkata, find restaurants around 1000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "kolkata",
+            "entity": "location"
+          },
+          {
+            "start": 55,
+            "end": 58,
+            "value": "500",
+            "entity": "budget"
+          }
+        ],
+        "text": "please suggest some good restaurants in kolkata for Rs.500 for 2 people"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 46,
+            "end": 52,
+            "value": "mumbai",
+            "entity": "location"
+          },
+          {
+            "start": 59,
+            "end": 62,
+            "value": "500",
+            "entity": "budget"
+          }
+        ],
+        "text": "please suggest me some italian restaurants in mumbai below 500"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 43,
+            "end": 50,
+            "value": "chennai",
+            "entity": "location"
+          },
+          {
+            "start": 57,
+            "end": 61,
+            "value": "1000",
+            "entity": "budget"
+          }
+        ],
+        "text": "can you please find italian restaurants in chennai below 1000"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "south indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 36,
+            "end": 41,
+            "value": "delhi",
+            "entity": "location"
+          },
+          {
+            "start": 49,
+            "end": 52,
+            "value": "800",
+            "entity": "budget"
+          }
+        ],
+        "text": "Show me south indian restaurants in delhi for Rs.800"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "pune",
+            "entity": "location"
+          },
+          {
+            "start": 19,
+            "end": 31,
+            "value": "north indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 54,
+            "end": 57,
+            "value": "299",
+            "entity": "budget"
+          }
+        ],
+        "text": "in pune, find some north indian restaurants for below 300"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 48,
+            "end": 51,
+            "value": "700",
+            "entity": "budget"
+          },
+          {
+            "start": 55,
+            "end": 60,
+            "value": "jammu",
+            "entity": "location"
+          }
+        ],
+        "text": "looking for some good chinese restaurants above 700 in jammu"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "american",
+            "entity": "cuisine"
+          },
+          {
+            "start": 43,
+            "end": 46,
+            "value": "700",
+            "entity": "budget"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "kolkata",
+            "entity": "location"
+          }
+        ],
+        "text": "need good american restaurants between 300-700 range in kolkata"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "south indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 44,
+            "end": 51,
+            "value": "chennai",
+            "entity": "location"
+          },
+          {
+            "start": 76,
+            "end": 87,
+            "value": "abc@xyz.com",
+            "entity": "email"
+          }
+        ],
+        "text": "please find the south indian restaurants in chennai and send the details to abc@xyz.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "south indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 44,
+            "end": 51,
+            "value": "chennai",
+            "entity": "location"
+          },
+          {
+            "start": 76,
+            "end": 87,
+            "value": "abc@xyz.com",
+            "entity": "email"
+          }
+        ],
+        "text": "kindly find the south indian restaurants in chennai and send the details to abc@xyz.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 50,
+            "end": 56,
+            "value": "mumbai",
+            "entity": "location"
+          },
+          {
+            "start": 60,
+            "end": 73,
+            "value": "fsdff@ghd.com",
+            "entity": "email"
+          }
+        ],
+        "text": "please send the details of italian restaurants in mumbai to fsdff@ghd.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "mexican",
+            "entity": "cuisine"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "delhi",
+            "entity": "location"
+          },
+          {
+            "start": 74,
+            "end": 87,
+            "value": "fsdff@ghd.com",
+            "entity": "email"
+          }
+        ],
+        "text": "I need mexican restaurants in delhi please send the details to my mail id fsdff@ghd.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "american",
+            "entity": "cuisine"
+          },
+          {
+            "start": 47,
+            "end": 54,
+            "value": "chennai",
+            "entity": "location"
+          },
+          {
+            "start": 69,
+            "end": 82,
+            "value": "hddsa@dgd.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Looking for american restaurants in and around chennai my mail id is hddsa@dgd.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": "south indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 41,
+            "end": 50,
+            "value": "bangalore",
+            "entity": "location"
+          },
+          {
+            "start": 66,
+            "end": 79,
+            "value": "hddsa@dgd.com",
+            "entity": "email"
+          }
+        ],
+        "text": "suggest some south indian restaurants in bangalore. my mail id is hddsa@dgd.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "bangalore",
+            "entity": "location"
+          },
+          {
+            "start": 42,
+            "end": 45,
+            "value": "800",
+            "entity": "budget"
+          },
+          {
+            "start": 70,
+            "end": 83,
+            "value": "htere@dgd.com",
+            "entity": "email"
+          }
+        ],
+        "text": "suggest some restaurants in bangalore for 800 and send the details to htere@dgd.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 35,
+            "value": "1000",
+            "entity": "budget"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "cochin",
+            "entity": "location"
+          },
+          {
+            "start": 64,
+            "end": 77,
+            "value": "teeww@hdw.com",
+            "entity": "email"
+          }
+        ],
+        "text": "help me find restaurants above 1000 in cochin. my emailid is to teeww@hdw.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "1000",
+            "entity": "budget"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "pondy",
+            "entity": "location"
+          },
+          {
+            "start": 78,
+            "end": 91,
+            "value": "sfsew@ada.com",
+            "entity": "email"
+          }
+        ],
+        "text": "looking for restaurants between 500-1000 in pondy. please send the details to sfsew@ada.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 46,
+            "end": 49,
+            "value": "600",
+            "entity": "budget"
+          },
+          {
+            "start": 53,
+            "end": 58,
+            "value": "delhi",
+            "entity": "location"
+          },
+          {
+            "start": 76,
+            "end": 89,
+            "value": "sfsew@ada.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Show me restaurants for the range between 300-600 in delhi. send results to sfsew@ada.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "pune",
+            "entity": "location"
+          },
+          {
+            "start": 35,
+            "end": 38,
+            "value": "500",
+            "entity": "budget"
+          },
+          {
+            "start": 66,
+            "end": 86,
+            "value": "sfss.saada@sfsaa.com",
+            "entity": "email"
+          }
+        ],
+        "text": "in pune, find some restaurants for 500 and send me the details to sfss.saada@sfsaa.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 44,
+            "end": 47,
+            "value": "500",
+            "entity": "budget"
+          },
+          {
+            "start": 53,
+            "end": 59,
+            "value": "cochin",
+            "entity": "location"
+          },
+          {
+            "start": 87,
+            "end": 102,
+            "value": "adadas@adaf.com",
+            "entity": "email"
+          }
+        ],
+        "text": "looking for some good restaurants for below 500 near cochin. mail me the results to id adadas@adaf.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "bangalore",
+            "entity": "location"
+          },
+          {
+            "start": 50,
+            "end": 53,
+            "value": "800",
+            "entity": "budget"
+          },
+          {
+            "start": 78,
+            "end": 91,
+            "value": "htere@dgd.com",
+            "entity": "email"
+          }
+        ],
+        "text": "suggest some italian restaurants in bangalore for 800 and send the details to htere@dgd.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 39,
+            "end": 43,
+            "value": "1000",
+            "entity": "budget"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "cochin",
+            "entity": "location"
+          },
+          {
+            "start": 72,
+            "end": 85,
+            "value": "teeww@hdw.com",
+            "entity": "email"
+          }
+        ],
+        "text": "help me find chinese restaurants above 1000 in cochin. my emailid is to teeww@hdw.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "south indian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 49,
+            "end": 53,
+            "value": "1000",
+            "entity": "budget"
+          },
+          {
+            "start": 57,
+            "end": 62,
+            "value": "pondy",
+            "entity": "location"
+          },
+          {
+            "start": 91,
+            "end": 104,
+            "value": "sfsew@ada.com",
+            "entity": "email"
+          }
+        ],
+        "text": "looking for south indian restaurants between 500-1000 in pondy. please send the details to sfsew@ada.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "american",
+            "entity": "cuisine"
+          },
+          {
+            "start": 55,
+            "end": 58,
+            "value": "600",
+            "entity": "budget"
+          },
+          {
+            "start": 62,
+            "end": 67,
+            "value": "delhi",
+            "entity": "location"
+          },
+          {
+            "start": 85,
+            "end": 98,
+            "value": "sfsew@ada.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Show me american restaurants for the range between 300-600 in delhi. send results to sfsew@ada.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "pune",
+            "entity": "location"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "chinese",
+            "entity": "cuisine"
+          },
+          {
+            "start": 43,
+            "end": 46,
+            "value": "500",
+            "entity": "budget"
+          },
+          {
+            "start": 74,
+            "end": 94,
+            "value": "sfss.saada@sfsaa.com",
+            "entity": "email"
+          }
+        ],
+        "text": "in pune, find some chinese restaurants for 500 and send me the details to sfss.saada@sfsaa.com"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "italian",
+            "entity": "cuisine"
+          },
+          {
+            "start": 52,
+            "end": 55,
+            "value": "500",
+            "entity": "budget"
+          },
+          {
+            "start": 61,
+            "end": 67,
+            "value": "cochin",
+            "entity": "location"
+          },
+          {
+            "start": 95,
+            "end": 110,
+            "value": "adadas@adaf.com",
+            "entity": "email"
+          }
+        ],
+        "text": "looking for some good italian restaurants for below 500 near cochin. mail me the results to id adadas@adaf.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "need results in xyz@abc.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 18,
+            "end": 29,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "please send it to xyz@abc.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "yes please send it to xyz@abc.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "yes, please send it to xyz@abc.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "yes. please send it to xyz@abc.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "send it to xyz@abc.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "my email id is xyz@abc.com"
+      },
+      {
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "xyz@abc.com",
+            "entity": "email"
+          }
+        ],
+        "text": "xyz@abc.com"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thankyou"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ThankYou"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank You"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "you saved my time. thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "wonderful thanks"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "goodbye",
+        "text": "farewell"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a good one"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "send_email",
+        "pattern": "^[\\w-]+(\\.[\\w-]+)*@([a-z0-9-]+(\\.[a-z0-9-]+)*?\\.[a-z]{2,6}|(\\d{1,3}\\.){3}\\d{1,3})(:\\d{4})?$"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines",
+          "china",
+          "China",
+          "thai",
+          "japanese",
+          "malaysian",
+          "burmese"
+        ]
+      },
+      {
+        "value": "mexican",
+        "synonyms": [
+          "Mexican",
+          "Mexico",
+          "mexico"
+        ]
+      },
+      {
+        "value": "italian",
+        "synonyms": [
+          "Italian",
+          "Italy",
+          "italy",
+          "Italain",
+          "italain",
+          "western",
+          "european",
+          "spanish",
+          "french"
+        ]
+      },
+      {
+        "value": "american",
+        "synonyms": [
+          "American",
+          "America",
+          "america"
+        ]
+      },
+      {
+        "value": "south indian",
+        "synonyms": [
+          "South Indian",
+          "South India",
+          "south india",
+          "South indian",
+          "South india",
+          "south Indian",
+          "south India",
+          "Southindian",
+          "southindian",
+          "Southindia",
+          "southindia",
+          "chettinadu",
+          "chettinad",
+          "andhra",
+          "kerala",
+          "malabar"
+        ]
+      },
+      {
+        "value": "north indian",
+        "synonyms": [
+          "North Indian",
+          "North India",
+          "north india",
+          "North indian",
+          "North india",
+          "north Indian",
+          "north India",
+          "Northindian",
+          "northindian",
+          "Northindia",
+          "northindia",
+          "punjabi",
+          "kashmiri",
+          "bengali",
+          "goan"
+        ]
+      },
+      {
+        "value": "bangalore",
+        "synonyms": [
+          "Bangalore",
+          "Bengaluru",
+          "bengaluru",
+          "Bengalore",
+          "bengalore",
+          "blore",
+          "Blore"
+        ]
+      },
+      {
+        "value": "chennai",
+        "synonyms": [
+          "Chennai",
+          "madras",
+          "Madras",
+          "Chenai",
+          "chenai"
+        ]
+      },
+      {
+        "value": "mumbai",
+        "synonyms": [
+          "Mumbai",
+          "Bombai",
+          "bombai",
+          "bombay",
+          "Bombay"
+        ]
+      },
+      {
+        "value": "kochi",
+        "synonyms": [
+          "Kochi",
+          "Cochin",
+          "cochin",
+          "Cochi",
+          "cochi"
+        ]
+      },
+      {
+        "value": "tiruchirappalli",
+        "synonyms": [
+          "Tiruchirappalli",
+          "Trichy",
+          "trichy"
+        ]
+      },
+      {
+        "value": "kolkata",
+        "synonyms": [
+          "Kolkata",
+          "Calcutta",
+          "calcutta",
+          "Kolkatta",
+          "kolkatta"
+        ]
+      },
+      {
+        "value": "delhi",
+        "synonyms": [
+          "Delhi",
+          "Dehli",
+          "dehli",
+          "dilli",
+          "Dilli",
+          "new delhi",
+          "New Delhi",
+          "New delhi",
+          "newdelhi",
+          "Newdelhi"
+        ]
+      },
+      {
+        "value": "mysore",
+        "synonyms": [
+          "Mysore",
+          "mysuru",
+          "Mysuru",
+          "Mysure",
+          "mysure"
+        ]
+      },
+      {
+        "value": "pune",
+        "synonyms": [
+          "Pune",
+          "poona",
+          "Poona",
+          "Poone",
+          "poone"
+        ]
+      },
+      {
+        "value": "pondicherry",
+        "synonyms": [
+          "Pondicherry",
+          "pondi",
+          "Pondi",
+          "pondy",
+          "Pondy"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg",
+          "veg",
+          "Veg"
+        ]
+      },
+      {
+        "value": "non-vegetarian",
+        "synonyms": [
+          "Non-vegetarian",
+          "Non-veg",
+          "non-veg",
+          "Non veg",
+          "non veg",
+          "Nonveg",
+          "nonveg"
+        ]
+      }
+    ]
+  }
+}
